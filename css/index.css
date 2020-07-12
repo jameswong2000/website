@@ -1,0 +1,158 @@
+body{
+    overflow: hidden;
+}
+/*nav override*/
+#navLink a:hover{
+    cursor: pointer;
+}
+/*nav override*/
+
+/*Main Section*/
+.section{
+    position: relative;
+    /*full background and responsive image*/
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*full background and responsive image*/
+}
+
+.content{
+    position: absolute;
+    padding-bottom: 30px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+
+.content a{
+    height: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: rgb(139, 136, 136);
+}
+
+#greetingSection{
+    background-image: url(".././image/introSectionBackground.jpg");
+}
+
+#portfolioSection{
+    background-image: url(".././image/portfolioSectionBackground.jpg");
+}
+
+#aircraftGallery{
+    background-image: url("../image/aircraftSectionBackground.JPG");
+}
+
+#travelGallery{
+    background-image: url("../image/travelSectionBackground.jpg");
+}
+
+#photographyGallery{
+    background-image: url("../image/photographySectionBackground.JPG");
+}
+
+.slides{
+    display: none;
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.up, .down{
+    color: rgb(83, 83, 83);
+    font-size: 80px;
+    right: 0;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.up{
+    top: 65px;
+    right: 30px;
+    transform: rotate(90deg);
+}
+
+.down{
+    bottom: 0;
+    right: 30px;
+    transform: rotate(90deg);
+}
+
+.prev, .next {
+    
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.up:hover, .down:hover{
+    color: rgb(128, 125, 125);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.photosindicator{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 1;
+}
+
+.fadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/*Main Section*/

@@ -1,0 +1,110 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*Navigation Menu*/
+nav {
+    background-color: rgb(139, 136, 136);
+    z-index: 9999;      /*Navigation Menu always on the front*/
+    /*top fixed menu*/
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    /*top fixed menu*/
+}
+
+#logo {
+    float: left;
+    width: 50px;
+}
+
+#navLink a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;   
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropDownButton{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 24px 16px;
+    background-color: inherit;
+    color: white;
+    font-family: inherit;       /* Important for vertical align on mobile phones */
+    margin: 0;                  /* Important for vertical align on mobile phones */
+}
+
+/* set the contents to be hidden by default*/
+.dropDownContents{
+    display: none;
+    position: absolute;
+    background-color: rgb(94, 91, 91);
+    z-index: 1;
+}
+/* set the contents to be hidden by default*/
+
+.dropDownContents a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropDownContents {
+    display: block;
+}
+
+#navLink a:hover:not(.active), .dropdown:hover:not(.active), .dropDownButton:hover:not(.active){
+    background-color: rgb(121, 119, 119);
+}
+
+.active {
+    background-color: rgb(83, 81, 81);
+}
+/*Navigation Menu*/
+
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: rgb(139, 136, 136);
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.footerColumn{
+    float: left;
+    width: 25%;     /*set to four column design*/
+}
+
+.footerColumn a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerColumn a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* Clear floats after the columns */
+#footerMenu:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Footer*/
