@@ -1,0 +1,211 @@
+html {
+  background-color: #ffff66;
+}
+/* Start of logo */
+#logo{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+}
+
+#title {
+  position: absolute;
+  left: 48%;
+  top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  color: red;
+  transform: rotate(350deg);
+  animation: transform 5s infinite;
+}
+
+@keyframes transform {
+    50% {transform: rotate(710deg);}
+}
+
+/* End of logo */
+
+/* Start of Navigation Menu */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 0;
+
+
+}
+
+/* Styling the dropdown logo */
+.dropdown-logo {
+  cursor: pointer;
+  margin-top: 80px;
+
+}
+
+/* hide dropdown-content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff66;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: fantasy;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e6e600;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown-logo {
+    background-color: #00ffff;
+}
+
+/* End of Navigation Menu */
+
+/* Start of header */
+.header {
+  border: 4px solid grey;
+  border-radius: 10px;
+  background-color: #99ffff;
+  width: 100%;
+
+}
+
+/* End of header */
+
+
+video {
+  max-width: 5000px;
+  max-height: 5000px;
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+/* Start of order form */
+form {
+    position: absolute;
+    width: 98%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+input {
+    font-size: 4vw;
+    background-color: #ffff66;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #D8CA3D;
+    font-size: 4vw;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #F6F1B9;
+}
+
+
+/* End of order form */
+
+#cake {
+    margin-top: 40%;
+}
+#cakeimg {
+  width: 50%;
+  height: auto;
+  float: left;
+  border-radius: 10%;
+  animation: bounce 1s infinite;
+
+
+}
+
+
+
+/* Start of nutrition information */
+
+#information {
+  margin-left: 55%;
+  font-size: 3vw;
+}
+
+#information>h1 {
+  margin-left: 10%;
+}
+
+/* Start of table */
+table, th, td {
+  border: 1px dotted black;
+}
+
+table {
+    border-collapse: collapse;
+    color: white;
+}
+
+caption {
+  color: black;
+}
+th {
+  background-color: #7F837E;
+}
+
+tr:nth-child(odd) {
+    background-color: #3720AC;
+}
+
+tr:nth-child(even) {
+    background-color: #2D1F74;
+}
+
+tr:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+40% {transform: translateY(-30px);}
+60% {transform: translateY(-15px);}
+}
+
+/* End of table */
+/* End of nutrition information */
+
+/* Start of footer */
+footer {
+  text-align: center;
+  position: relative;
+  clear: both;
+  background-color: #99ffff;
+  width: 100%;
+
+}
+/* End of footer */
