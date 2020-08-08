@@ -11,71 +11,78 @@
     <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="icon" type="image/png" href="../image/logo.png">         <!--favicon-->
     <script src="../javascript/index.js"></script>
+    <!--Scroll Snap Library-->
+    <link rel="stylesheet" type="text/css" href="../lib/fullpage.css" />
+    <script type="text/javascript" src="../lib/fullpage.js"></script>
+    <!--Scroll Snap Library-->
 </head>
 
 <body>
     <nav>
         <a href="index.html"><img id="logo" src="../image/logo.png" alt="Webpage Logo"></a>
-        <div id="navLink">
-            <a href="#greetingSection">Home</a>
-            <a href="#portfolioSection">Portfolio</a>
-            <a href="#gallerySection">Gallery</a>
-        </div>
+        <ul id="navLink">
+            <li><a data-menuanchor="greeting" href="#greeting" class="active">Home</a></li>
+            <li><a data-menuanchor="portfolio" href="#portfolio">Portfolio</a></li>
+            <li><a data-menuanchor="gallery" href="#gallery">Gallery</a></li>
+        </ul>
     </nav>
 
-    <section id="greetingSection" class="section">
-        <div class="content fadeIn">
-            <h1>Welcome</h1>
-            <a href="#portfolioSection"><span class="fadeIn">Welcome to my page! Please click here or the navigation bar for more details.</span></a>
-        </div>
-    </section>
-
-    <section id="portfolioSection" class="section">
-        <div class="content fadeIn">
-            <h1>Portfolio</h1>
-            <a href="portfolio.html">
-                <span class="fadeIn">A summary about my career and projects. Please click here to enter the page.</span>
-            </a>
-        </div>
-    </section>
-
-    <section id="gallerySection" class="section">
-        <div class="photosindicator">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        
-        <div class="slides fadeIn section" id="aircraftGallery">
-            <div class="content">
-                <h1 class="galleryHeader">Aircraft Gallery</h1>
-                <a class="galleryLink" href="aircraft.html">
-                    <span class="galleryDescription">Want to take a look of different aircrafts shooted by me? Click to enter!</span>
+    <div id="main">
+        <section id="greetingSection" class="section" data-anchor="greeting">
+            <div class="content fadeIn">
+                <h1>Welcome</h1>
+                <a href="#portfolio">
+                    <span class="fadeIn">Welcome to my page! Please scroll for more details.</span>
                 </a>
             </div>
-        </div>
+        </section>
 
-        <div class="slides fadeIn section" id="travelGallery">
-            <div class="content">
-                <h1 class="galleryHeader">Travel Gallery</h1>
-                <a class="galleryLink" href="travel.html">
-                    <span class="galleryDescription">There are some photos shooted in foreign countries. Take a look!</span>
+        <section id="portfolioSection" class="section" data-anchor="portfolio">
+            <div class="content fadeIn">
+                <h1>Portfolio</h1>
+                <a href="portfolio.html">
+                    <span class="fadeIn">A summary about my career and projects. Please click here to enter the page.</span>
                 </a>
             </div>
-        </div>
+        </section>
 
-        <div class="slides fadeIn section" id="photographyGallery">
-            <div class="content">
-                <h1 class="galleryHeader">Photography Gallery</h1>
-                <a class="galleryLink" href="photography.html">
-                    <span class="galleryDescription">I would like to share my photos to all of you!</span>
-                </a>
+        <section id="gallerySection" class="section" data-anchor="gallery">
+            <div class="photosindicator">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-        </div>
+            
+            <div class="slides fadeIn section" id="aircraftGallery">
+                <div class="content">
+                    <h1 class="galleryHeader">Aircraft Gallery</h1>
+                    <a class="galleryLink" href="aircraft.html">
+                        <span class="galleryDescription">Want to take a look of different aircrafts shooted by me? Click to enter!</span>
+                    </a>
+                </div>
+            </div>
 
-        <a class="arrow prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="arrow next" onclick="plusSlides(1)">&#10095;</a>
-    </section>   
+            <div class="slides fadeIn section" id="travelGallery">
+                <div class="content">
+                    <h1 class="galleryHeader">Travel Gallery</h1>
+                    <a class="galleryLink" href="travel.html">
+                        <span class="galleryDescription">There are some photos shooted in foreign countries. Take a look!</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="slides fadeIn section" id="photographyGallery">
+                <div class="content">
+                    <h1 class="galleryHeader">Photography Gallery</h1>
+                    <a class="galleryLink" href="photography.html">
+                        <span class="galleryDescription">I would like to share my photos to all of you!</span>
+                    </a>
+                </div>
+            </div>   
+            <a class="arrow prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="arrow next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+    </div>
 </body>
 
 </html>

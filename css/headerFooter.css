@@ -2,7 +2,6 @@ body, html{
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 /*Navigation Menu*/
@@ -12,7 +11,7 @@ nav {
     /*top fixed menu*/
     position: fixed;
     top: 0;
-    left: 0px;
+    left: 0;
     width: 100%;
     /*top fixed menu*/
 }
@@ -20,6 +19,12 @@ nav {
 #logo {
     float: left;
     width: 50px;
+}
+
+#navLink{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #navLink a{
