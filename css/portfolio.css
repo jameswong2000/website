@@ -1,8 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
 /*Main Section*/
 #portfolio{
-    padding: 50px 0px 10px 10px;
+    padding: 70px 0px 10px 10px;
     font-size: 20px;
 }
+
+.row{
+    margin: 10px 10px;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{   
+    padding: 0 10px;
+}
+
+.leftColumn{
+    float: left;
+    width: 25%;    
+}
+
+.rightColumn{
+    float: left;
+    width: 75%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    padding: 16px;
+    
+    background-color: #f1f1f1;
+  }
 
 #portfolio header{
     text-align: center;
@@ -19,9 +55,8 @@
 }
 
 #introduction img{
-    float: right;
-    padding-right: 20px;
-    width: 300px;
+    padding: 20px;
+    width: 100%;
     
 }
 
