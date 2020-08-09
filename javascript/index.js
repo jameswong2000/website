@@ -9,7 +9,9 @@ window.addEventListener("load", function () {
         anchors: ['greeting', 'portfolio', 'gallery'],
         menu: '#navLink'
     });
-    
+
+    document.querySelector(".loader").style.display= "none";
+    document.querySelector("#main").style.visibility= "visible";
     showSlides(slideIndex);
     myTimer = setInterval(function () { plusSlides(1) }, 3000);
 })
