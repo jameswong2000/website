@@ -83,7 +83,6 @@ td:nth-child(even), th:nth-child(2){
     position: relative;
     display: inline-block;
     list-style-type: none;
-    width: 15%;
     height: 3px;
     background: rgb(172, 169, 169);
 }
@@ -122,7 +121,7 @@ td:nth-child(even), th:nth-child(2){
 .timeline ol li div {
     position: absolute;
     left: 22%;
-    width: 146px;
+    width: 95%;
     padding: 12px 6px;
     font-size: 1rem;
     text-align: left;
@@ -168,10 +167,6 @@ td:nth-child(even), th:nth-child(2){
 
 .descriptionContainer div{
     display: none;
-}
-
-.descriptionContainer div.descriptionActive {
-    display: block;
 }
 
 .projects img, .projects video{
