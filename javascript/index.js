@@ -2,11 +2,11 @@ var slideIndex = 1;
 
 window.addEventListener("load", function () {
     //call fullpage.js
-    new fullpage('#main', {
+    new fullpage("#main", {
         //options here
         autoScrolling:true,
         scrollHorizontally: true,
-        anchors: ['greeting', 'portfolio', 'gallery'],
+        anchors: ["greeting", "portfolio", "gallery"],
         menu: '#navLink'
     });
 
