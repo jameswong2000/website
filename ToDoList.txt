@@ -7,4 +7,5 @@ index.html
 (6. Smoother transitions between photos)
 
 portfolio.html
-1. Lightbox
+1. Use timeline to represent each section, skill bar on skills section
+1. Lightbox on photo
