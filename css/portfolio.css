@@ -1,34 +1,35 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 /*Main Section*/
-#portfolio{
+#portfolio {
     padding: 70px 0px 10px 10px;
     font-size: 20px;
     color: rgb(61, 59, 59);
 }
 
-.row{
+/*Two Unequal Column Card*/
+.row {
     margin: 8px 10px;
 }
 
-.row:after{
+.row:after {
     content: "";
     clear: both;
     display: table;
 }
 
-.column{ 
+.column { 
     padding: 0 10px;
 }
 
-.leftColumn{
+.leftColumn {
     float: left;
     width: 25%;    
 }
 
-.rightColumn{
+.rightColumn {
     float: left;
     width: 75%;
 }
@@ -38,7 +39,8 @@
     margin: 15px 0 24px;
     padding: 16px;
     background-color: #f1f1f1;
-  }
+}
+/*Two Unequal Column Card*/
 
 #portfolio header{
     text-align: center;
@@ -68,6 +70,110 @@ td:nth-child(even), th:nth-child(2){
     padding-left: 30px;
 }
 
+/*Horizontal Timeline*/ 
+.timeline ol {
+    font-size: 0;
+    padding: 160px 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+/*Timeline*/
+.timeline ol li {   
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 15%;
+    height: 3px;
+    background: rgb(172, 169, 169);
+}
+/*Timeline*/
+
+/*Timeline Dot*/
+.timeline ol li::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #b8b7b7;
+}
+
+.timeline ol li.active::after{
+    background-color: rgb(95, 94, 94);;
+}
+/*Timeline Dot*/
+
+/*Text Container*/
+.timeline ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ol li div {
+    position: absolute;
+    left: 22%;
+    width: 146px;
+    padding: 12px 6px;
+    font-size: 1rem;
+    text-align: left;
+    white-space: normal;
+    color: black;
+    background: white;
+}
+
+.timeline ol li div:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.timeline ol li:nth-child(odd) div::before {
+    top: 100%;
+    border-width: 8px 8px 0 0;
+    border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(odd) div {
+    top: -16px;
+    transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(even) div::before {
+    top: -8px;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent white;
+}
+
+.timeline ol li:nth-child(even) div {
+    top: calc(100% + 16px);
+}
+/*Text Container*/
+/*Horizontal Timeline*/
+
+.descriptionContainer div{
+    display: none;
+}
+
+.descriptionContainer div.descriptionActive {
+    display: block;
+}
+
 .projects img, .projects video{
     width: 20%;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -77,7 +183,6 @@ td:nth-child(even), th:nth-child(2){
 .projects img:hover, .projects video:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
 /*Main Section*/
 
 @media screen and (max-width: 600px) {
