@@ -6,7 +6,7 @@ body, html{
 
 /*Navigation Menu*/
 nav {
-    background-color: rgb(139, 136, 136);
+    background-color: #393E41;
     z-index: 9999;      /*Navigation Menu always on the front*/
     /*top fixed menu*/
     position: fixed;
@@ -56,7 +56,7 @@ nav {
 .dropDownContents{
     display: none;
     position: absolute;
-    background-color: rgb(94, 91, 91);
+    background-color: #393E41;
     z-index: 1;
 }
 /* set the contents to be hidden by default*/
@@ -74,18 +74,19 @@ nav {
 }
 
 #navLink a:hover:not(.active), .dropdown:hover:not(.active), .dropDownButton:hover:not(.active){
-    background-color: rgb(121, 119, 119);
+    background-color: #868686;
 }
 
 .active {
-    background-color: rgb(83, 81, 81);
+    background-color: #868686;
 }
 /*Navigation Menu*/
 
 /*Footer*/
 footer{
     width: 100%;
-    background-color: rgb(139, 136, 136);
+    background-color: #393e41e1;
+    color: #ffffffb9;
     text-align: center;
     font-size: 20px;
     padding-bottom: 5px;
@@ -98,12 +99,12 @@ footer{
 
 .footerColumn a{
     text-decoration: none;
-    color: black;
+    color: #ffffffb9;
 }
 
 .footerColumn a:hover{
     text-decoration: underline;
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Clear floats after the columns */
