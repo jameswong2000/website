@@ -47,16 +47,14 @@
                         <a href="mailto:wongwongjames@yahoo.com.hk">wongwongjames@yahoo.com.hk</a>
                     </header>
 
-                    <img src=".././image/passportPhoto.jpg" alt="portfolio photo">
+                    <img src=".././image/profilePicture.jpg" alt="portfolio photo">
                     
                     <span>Interested in Information Technology curriculum and started learning computer
                         programming since secondary school. Joined several competitions to design devices by
                         implementing computer programming and circuit designing. Currently studying computer
                         science at the City University of Hong Kong, willing to learn to enrich knowledge and enable
                         further development.</span>
-                </article>
-
-                
+                </article>              
             </div>
 
             <div class="column rightColumn">
@@ -65,13 +63,15 @@
                         <caption>
                             <h1>Work Experience</h1>
                         </caption>
+
                         <tr>
                             <th>Year</th>
                             <th>Company</th>
                         </tr>
+
                         <tr>
                             <td>2020 - current</td>
-                            <td><strong>The Bank of East Asia Limited</strong></td>
+                            <td>The Bank of East Asia Limited</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -85,21 +85,24 @@
                         <caption>
                             <h1>Education</h1>
                         </caption>
+
                         <tr>
                             <th>Year</th>
                             <th>Institute</th>
                         </tr>
+
                         <tr>
                             <td>2018 - current</td>
-                            <td><strong>City University of Hong Kong</strong></td>
+                            <td>City University of Hong Kong</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>Bachelor of Science in Computer Science</td>
                         </tr>
+
                         <tr>
                             <td>2012 - 2018</td>
-                            <td><strong>Stewards Pooi Kei College</strong></td>
+                            <td>Stewards Pooi Kei College</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -113,30 +116,34 @@
                         <caption>
                             <h1>Awards and Achievements</h1>
                         </caption>
+
                         <tr>
                             <th>Year</th>
                             <th>Awards/Achievements</th>
                         </tr>
+
                         <tr>
                             <td>2017</td>
-                            <td><strong>Gold Award</strong></td>
+                            <td>Gold Award</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>E.C. Fix Technology Limited, ICT Scholarship Award</td>
                         </tr>
+
                         <tr>
                             <td>2017</td>
-                            <td><strong>First Runner-Up, The Best Presentation Award</strong></td>
+                            <td>First Runner-Up, The Best Presentation Award</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>The University of Hong Kong, Hong Kong Observatory and Hong Kong
                                 Meteorological Society, Earthquake Detector Competition</td>
                         </tr>
+
                         <tr>
                             <td>2015</td>
-                            <td><strong>Merit, The Best Presentation Award</strong></td>
+                            <td>Merit, The Best Presentation Award</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -162,255 +169,253 @@
             </div>
 
             <div class="column rightColumn">
-                <section id="projectsSection">                               
-                    <div class="projects card">
-                        <h1>Projects</h1>
+                <section id="projectsSection" class="card">                               
+                    <h1>Projects</h1>
 
-                        <div class="timeline">
+                    <div class="timeline">
+                        <ol>
+                            <li>
+                                <div id="SLMD">
+                                    <time>2015</time>
+                                    <span>Sea Level Measurement Device</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id="ED">
+                                    <time>2017</time>
+                                    <span>Earthquake Detector</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id="CCS">
+                                    <time>2018</time>
+                                    <span>City's Cake Shop</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id="BRS">
+                                    <time>2019</time>
+                                    <span>Buffet Reservation System</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id="VBQD">
+                                    <time>2020</time>
+                                    <span>Video Binary Quantization and De-quantization</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id="FDP">
+                                    <time>2020</time>
+                                    <span>Food Delivery Platform</span>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div id="SLMD" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>Sea Level Measurement Device</h3>
+                            <h4>Date: 03-05-2015</h4>
+                            <h4>Programming Language: C</h4>
+                            <h4>Type: Sea Level Measurement Device Design Competition</h4>
+                            <p>
+                                This Sea Level Measurement Device is composed of Arduino UNO R3 Microcontroller, HC-SR04 Ultrasonic Sensor, I2C 1602 LED Display, HC-05 Bluetooth Module and Micro-SD-Module.
+                            </p>
+                            <p>
+                                This device can be used to measure the sea level. After insert the Micro-SD card to the micro-SD module and power on, the device will work automatically.
+                                The device will measure the sea level using Ultrasonic Sensor, after the arduino receive the data from the sensor, 
+                                the arduino will perform some calculations to produce the actual sea level reading. After that, the arduino will display the result on the LED Display, 
+                                transfer the result to the mobile application using bluetooth module and display the result on the mobile devices and save the result to the Micro-SD card for record.
+                                If the result is larger than the thersold set by the user, it will display "OUT" and there are no result written to the Micro-SD card.
+                            </p>
+                            <p>
+                                <span>Please view our project report for more details: </span>
+                                <a href="../document/seaLevelReport.pdf" target="_blank">Project Report</a>
+                            </p>               
+                            <img src="../image/seaLevel4.jpg" alt="Mobile Application">
+                            <img src="../image/seaLevel1.jpg" alt="Result Display">
+                            <img src="../image/seaLevel2.jpg" alt="Sea Level Measurement Device">                
+                            <img src="../image/seaLevel3.jpg" alt="Poster">
+                        </div>
+                    </div>
+
+                    <div id="ED" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>Earthquake Detector</h3>
+                            <h4>Date: 06-05-2017</h4>
+                            <h4>Programming Language: C, HTML, CSS, Javascript, PHP</h4>
+                            <h4>Type: Earthquake Detector Design Competition</h4>
+                            <p>
+                                This Earthquake Detector is composed of Arduino UNO R3 Microcontroller, MPU6050 Accelerometer, SSD1306 OLED Display, HC-05 Bluetooth Module and LTE12-05 Buzzer.
+                            </p>
+                            <p>
+                                This detector can be used to measured the type and the magnitude of the earthquake wave. 
+                                When the device turns on, the accelerometer will keep measure the acceleration continously. 
+                                When earthquake occurs, there will be a rapid change of the measuring result. When the result exceeds the short term average value, 
+                                the device will be triggered and the OLED display will show the type of waves (P wave/S wave) and the magnitudes, the buzzer are also triggered to alert the user.
+                                Futhermore, the device will send the result to the mobile application by bluetooth module and upload the result to the web server for record.
+                            </p>
+                            <p>
+                                In order to reduce the occurence of false alarm, our device will first calculate the short term average value by gathering the datas from past 0.5 seconds. 
+                                If the measured value is higher than the short term average value, the device will regarded it as the real earthquake and the devices will be triggered.
+                            </p>
+                            <p>
+                                <span>Please view our project report for more details: </span>
+                                <a href="../document/earthquakeReport.pdf" target="_blank">Project Report</a>
+                            </p>
+                            <img src="../image/earthquake1.jpg" alt="Earthquake Detector">
+                            <img src="../image/earthquake2.jpg" alt="Webpage">
+                            <img src="../image/earthquake3.jpg" alt="Webpage">
+                            <img src="../image/earthquake4.jpg" alt="Mobile Application">
+                            <video controls>
+                                <source src="../video/earthquakeDemo.mp4" type="video/mp4">
+                                It is the demo video.
+                            </video>
+                        </div>
+                    </div>
+
+                    <div id="CCS" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>City's Cake Shop Webpage</h3>
+                            <h4>Date: 05-12-2018</h4>
+                            <h4>Programming Language: HTML, CSS, Javascript</h4>
+                            <h4>Type: CityU CS2204 (Fundamentals of Internet Applications Development) Assignment</h4>
+                            <p>
+                                This webpage allows users to order cakes and view the information such as name, nutrition information and the image of different cakes.
+                            </p>
+                            <p>
+                                In the home page and order page, users can enter the order information such as telephone number, pick up date and the method to pick up.
+                                Then, users can choose the cakes to be ordered in the order page. 
+                            </p>
+                            <p>
+                                When users want to print the invoice. Users can click the "Print Invoice" button to print the invoice out.
+                            </p>
+                            <p>
+                                <span>Link to the webpage: </span>
+                                <a href="../cityCakeShop/html/index.html" target="_blank">City's Cake Shop</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="BRS" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>Buffet Reservation System</h3>
+                            <h4>Date: 06-12-2019</h4>
+                            <h4>Programming Language: Java</h4>
+                            <h4>Type: CityU CS2312 (Problem Solving and Programming) Assignment</h4>
+                            <p>
+                                This Buffet Reservation System accepts bookings and cancellation of booking. 
+                                When the customer issue a booking, the customer need to provide 
+                                his/her name, phone number, total seats needed and the dining date.
+                            </p>
+                            <p>
+                                When a booking is recorded, the system will set the record status as "pending".
+                                The staff-in-charge can check for available tables for the target day, 
+                                then assign the table(s) for the booking request. The status of the booking will then be changed into an accepted state.
+                            </p>
+                            <p>
+                                The system can generate listing for both pending and accepted bookings. 
+                                For pending bookings, "pending" is shown in the listing. For accepted bookings, the codes of the assigned tables are shown.
+                            </p>
+                            <p>
+                                The system can suggest which table(s) are to be assigned for a booking, based on the number of seats needed by the booking and the available tables.
+                            </p>
+                            <p>
+                                The system allows undo/redo actions and handles most error cases using Exception handling.
+                            </p>
+                            <img src="../image/brs1.png" alt="Example">
+                            <img src="../image/brs2.png" alt="Example">
+                            <img src="../image/brs3.png" alt="Example">
+                            <img src="../image/brs4.png" alt="Example">
+                        </div>
+                    </div>
+
+                    <div id="VBQD" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>Video Binary Quantization and De-quantization</h3>
+                            <h4>Date: 17-04-2020</h4>
+                            <h4>Programming Language: C++</h4>
+                            <h4>Type: CityU CS3201 (Operating System) Assignment</h4>
+                            <p>
+                                It is a multi-threaded program which simulate the process of quantization and de-quantization in image/video compression.
+                            </p>
+                            <p>
+                                After the camera captured the frames with float values between 0 and 1, 
+                                the frames will be flattened into a one-dimension vector from mxn matrix and loaded into the cache.
+                            </p>
+                            <p>
+                                Next, the transformer extracts the flattened frames in arrival order from the cache into the temporary frame recorder 
+                                and then compresses the extracted frame by quantization and de-quantization in place in the temporary frame recorder.
+                            </p>
+                            <p>
+                                Last, to view the distortion of compression,the estimator calculates the mean squared error between the original frame and the compressed frame 
+                                and then deletes the original frame from the cache to save space for new frames.
+                            </p>
+                            <img src="../image/multithreadQuantization.png" alt="Quantization result">
+                            <img src="../image/multithreadMSE.png" alt="Mean Squared Error">
+                        </div>
+                    </div>
+
+                    <div id="FDP" class="modal">
+                        <div class="descriptionModalContent">
+                            <span class="close">&times;</span>
+                            <h3>Food Delivery Platform</h3>
+                            <h4>Date: 07-05-2020</h4>
+                            <h4>Modeling Languages: Unified Modeling Language with the use of Visual Paradigm</h4>
+                            <h4>Type: CityU CS3342 (Software Design) Group Project</h4>
+                            <p>
+                                In this project, we have designed the Food Delivery Platform which allows users to order food online
+                                and delivered straight to their doorstep. The system included several features:
+                            </p>
                             <ol>
                                 <li>
-                                    <div id="SLMD" onclick="showContent(this.id)">
-                                        <time>2015</time>
-                                        <span>Sea Level Measurement Device</span>
-                                    </div>
+                                    Registration: User can register as a customer, restaurant, or a deliverer.
                                 </li>
-
                                 <li>
-                                    <div id="ED" onclick="showContent(this.id)">
-                                        <time>2017</time>
-                                        <span>Earthquake Detector</span>
-                                    </div>
+                                    Browsing and Ordering: Customers can browse the available restaurants and food menu, 
+                                    order food, track order in real-time after placing an order, manage order, and provide feedback to the service and the restaurant.
                                 </li>
-
                                 <li>
-                                    <div id="CCS" onclick="showContent(this.id)">
-                                        <time>2018</time>
-                                        <span>City's Cake Shop</span>
-                                    </div>
+                                    Editing: Restaurants can edit their own menu including the food list and prices.
                                 </li>
-
                                 <li>
-                                    <div id="BRS" onclick="showContent(this.id)">
-                                        <time>2019</time>
-                                        <span>Buffet Reservation System</span>
-                                    </div>
+                                    Management: The system administrator can manage the restaurant list, 
+                                    where restaurants listed on the list can provide food ordering services to the customer by approving restaurant users.
                                 </li>
-
                                 <li>
-                                    <div id="VBQD" onclick="showContent(this.id)">
-                                        <time>2020</time>
-                                        <span>Video Binary Quantization and De-quantization</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div id="FDP" onclick="showContent(this.id)">
-                                        <time>2020</time>
-                                        <span>Food Delivery Platform</span>
-                                    </div>
+                                    Delivery: The deliverer is responsible to deliver the order and update his or her real-time status.
                                 </li>
                             </ol>
+                            <p>
+                                We designed the platform by:
+                            </p>
+                            <ol>
+                            <li>Defining the scope and the requirements using Use Case Diagram</li>
+                            <li>Design the functions and the platform structure using Class Diagrams and Sequence Diagrams</li>
+                            <li>Implementing the Software Design Principles, Patterns and Strategies</li>
+                            <li>Software Prototype</li>
+                            <li>Documentation</li>
+                            </ol>
+                            <img src="../image/fdpUseCase.jpg" alt="Use Case Diagram of the platform">
+                            <img src="../image/fdpClassDiagram.jpg" alt="Class Diagram of the platform">
+                            <img src="../image/fdpMakePayment.jpg" alt="Sequence Diagram of the platform">
+                            <img src="../image/fdpPrototype.PNG" alt="Prototype of the platform">
                         </div>
-
-                        <div id="SLMD" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>Sea Level Measurement Device</h3>
-                                <h4>Date: 03-05-2015</h4>
-                                <h4>Programming Language: C</h4>
-                                <h4>Type: Sea Level Measurement Device Design Competition</h4>
-                                <p>
-                                    This Sea Level Measurement Device is composed of Arduino UNO R3 Microcontroller, HC-SR04 Ultrasonic Sensor, I2C 1602 LED Display, HC-05 Bluetooth Module and Micro-SD-Module.
-                                </p>
-                                <p>
-                                    This device can be used to measure the sea level. After insert the Micro-SD card to the micro-SD module and power on, the device will work automatically.
-                                    The device will measure the sea level using Ultrasonic Sensor, after the arduino receive the data from the sensor, 
-                                    the arduino will perform some calculations to produce the actual sea level reading. After that, the arduino will display the result on the LED Display, 
-                                    transfer the result to the mobile application using bluetooth module and display the result on the mobile devices and save the result to the Micro-SD card for record.
-                                    If the result is larger than the thersold set by the user, it will display "OUT" and there are no result written to the Micro-SD card.
-                                <p>
-                                    <span>Please view our project report for more details: </span>
-                                    <a href="../document/seaLevelReport.pdf" target="_blank">Project Report</a>
-                                </p>               
-                                <img src="../image/seaLevel4.jpg" alt="Mobile Application">
-                                <img src="../image/seaLevel1.jpg" alt="Result Display">
-                                <img src="../image/seaLevel2.jpg" alt="Sea Level Measurement Device">                
-                                <img src="../image/seaLevel3.jpg" alt="Poster">
-                            </div>
-                        </div>
-
-                        <div id="ED" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>Earthquake Detector</h3>
-                                <h4>Date: 06-05-2017</h4>
-                                <h4>Programming Language: C, HTML, CSS, Javascript, PHP</h4>
-                                <h4>Type: Earthquake Detector Design Competition</h4>
-                                <p>
-                                    This Earthquake Detector is composed of Arduino UNO R3 Microcontroller, MPU6050 Accelerometer, SSD1306 OLED Display, HC-05 Bluetooth Module and LTE12-05 Buzzer.
-                                </p>
-                                <p>
-                                    This detector can be used to measured the type and the magnitude of the earthquake wave. 
-                                    When the device turns on, the accelerometer will keep measure the acceleration continously. 
-                                    When earthquake occurs, there will be a rapid change of the measuring result. When the result exceeds the short term average value, 
-                                    the device will be triggered and the OLED display will show the type of waves (P wave/S wave) and the magnitudes, the buzzer are also triggered to alert the user.
-                                    Futhermore, the device will send the result to the mobile application by bluetooth module and upload the result to the web server for record.
-                                </p>
-                                <p>
-                                    In order to reduce the occurence of false alarm, our device will first calculate the short term average value by gathering the datas from past 0.5 seconds. 
-                                    If the measured value is higher than the short term average value, the device will regarded it as the real earthquake and the devices will be triggered.
-                                </p>
-                                <p>
-                                    <span>Please view our project report for more details: </span>
-                                    <a href="../document/earthquakeReport.pdf" target="_blank">Project Report</a>
-                                </p>
-                                <img src="../image/earthquake1.jpg" alt="Earthquake Detector">
-                                <img src="../image/earthquake2.jpg" alt="Webpage">
-                                <img src="../image/earthquake3.jpg" alt="Webpage">
-                                <img src="../image/earthquake4.jpg" alt="Mobile Application">
-                                <video controls>
-                                    <source src="../video/earthquakeDemo.mp4" type="video/mp4">
-                                    It is the demo video.
-                                </video>
-                            </div>
-                        </div>
-
-                        <div id="CCS" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>City's Cake Shop Webpage</h3>
-                                <h4>Date: 05-12-2018</h4>
-                                <h4>Programming Language: HTML, CSS, Javascript</h4>
-                                <h4>Type: CityU CS2204 (Fundamentals of Internet Applications Development) Assignment</h4>
-                                <p>
-                                    This webpage allows users to order cakes and view the information such as name, nutrition information and the image of different cakes.
-                                </p>
-                                <p>
-                                    In the home page and order page, users can enter the order information such as telephone number, pick up date and the method to pick up.
-                                    Then, users can choose the cakes to be ordered in the order page. 
-                                </p>
-                                <p>
-                                    When users want to print the invoice. Users can click the "Print Invoice" button to print the invoice out.
-                                </p>
-                                <p>
-                                    <span>Link to the webpage: </span>
-                                    <a href="../cityCakeShop/html/index.html" target="_blank">City's Cake Shop</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="BRS" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>Buffet Reservation System</h3>
-                                <h4>Date: 06-12-2019</h4>
-                                <h4>Programming Language: Java</h4>
-                                <h4>Type: CityU CS2312 (Problem Solving and Programming) Assignment</h4>
-                                <p>
-                                    This Buffet Reservation System accepts bookings and cancellation of booking. 
-                                    When the customer issue a booking, the customer need to provide 
-                                    his/her name, phone number, total seats needed and the dining date.
-                                </p>
-                                <p>
-                                    When a booking is recorded, the system will set the record status as "pending".
-                                    The staff-in-charge can check for available tables for the target day, 
-                                    then assign the table(s) for the booking request. The status of the booking will then be changed into an accepted state.
-                                </p>
-                                <p>
-                                    The system can generate listing for both pending and accepted bookings. 
-                                    For pending bookings, "pending" is shown in the listing. For accepted bookings, the codes of the assigned tables are shown.
-                                </p>
-                                <p>
-                                    The system can suggest which table(s) are to be assigned for a booking, based on the number of seats needed by the booking and the available tables.
-                                </p>
-                                <p>
-                                    The system allows undo/redo actions and handles most error cases using Exception handling.
-                                </p>
-                                <img src="../image/brs1.png" alt="Example">
-                                <img src="../image/brs2.png" alt="Example">
-                                <img src="../image/brs3.png" alt="Example">
-                                <img src="../image/brs4.png" alt="Example">
-                            </div>
-                        </div>
-
-                        <div id="VBQD" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>Video Binary Quantization and De-quantization</h3>
-                                <h4>Date: 17-04-2020</h4>
-                                <h4>Programming Language: C++</h4>
-                                <h4>Type: CityU CS3201 (Operating System) Assignment</h4>
-                                <p>
-                                    It is a multi-threaded program which simulate the process of quantization and de-quantization in image/video compression.
-                                </p>
-                                <p>
-                                    After the camera captured the frames with float values between 0 and 1, 
-                                    the frames will be flattened into a one-dimension vector from mxn matrix and loaded into the cache.
-                                </p>
-                                <p>
-                                    Next, the transformer extracts the flattened frames in arrival order from the cache into the temporary frame recorder 
-                                    and then compresses the extracted frame by quantization and de-quantization in place in the temporary frame recorder.
-                                </p>
-                                <p>
-                                    Last, to view the distortion of compression,the estimator calculates the mean squared error between the original frame and the compressed frame 
-                                    and then deletes the original frame from the cache to save space for new frames.
-                                </p>
-                                <img src="../image/multithreadQuantization.png" alt="Quantization result">
-                                <img src="../image/multithreadMSE.png" alt="Mean Squared Error">
-                            </div>
-                        </div>
-
-                        <div id="FDP" class="modal">
-                            <div class="descriptionModalContent">
-                                <span class="close">&times;</span>
-                                <h3>Food Delivery Platform</h3>
-                                <h4>Date: 07-05-2020</h4>
-                                <h4>Modeling Languages: Unified Modeling Language with the use of Visual Paradigm</h4>
-                                <h4>Type: CityU CS3342 (Software Design) Group Project</h4>
-                                <p>
-                                    In this project, we have designed the Food Delivery Platform which allows users to order food online
-                                    and delivered straight to their doorstep. The system included several features:
-                                </p>
-                                <ol>
-                                    <li>
-                                        Registration: User can register as a customer, restaurant, or a deliverer.
-                                    </li>
-                                    <li>
-                                        Browsing and Ordering: Customers can browse the available restaurants and food menu, 
-                                        order food, track order in real-time after placing an order, manage order, and provide feedback to the service and the restaurant.
-                                    </li>
-                                    <li>
-                                        Editing: Restaurants can edit their own menu including the food list and prices.
-                                    </li>
-                                    <li>
-                                        Management: The system administrator can manage the restaurant list, 
-                                        where restaurants listed on the list can provide food ordering services to the customer by approving restaurant users.
-                                    </li>
-                                    <li>
-                                        Delivery: The deliverer is responsible to deliver the order and update his or her real-time status.
-                                    </li>
-                                </ol>
-                                <p>
-                                    We designed the platform by:
-                                </p>
-                                <ol>
-                                <li>Defining the scope and the requirements using Use Case Diagram</li>
-                                <li>Design the functions and the platform structure using Class Diagrams and Sequence Diagrams</li>
-                                <li>Implementing the Software Design Principles, Patterns and Strategies</li>
-                                <li>Software Prototype</li>
-                                <li>Documentation</li>
-                                </ol>
-                                <img src="../image/fdpUseCase.jpg" alt="Use Case Diagram of the platform">
-                                <img src="../image/fdpClassDiagram.jpg" alt="Class Diagram of the platform">
-                                <img src="../image/fdpMakePayment.jpg" alt="Sequence Diagram of the platform">
-                                <img src="../image/fdpPrototype.PNG" alt="Prototype of the platform">
-                            </div>
-                        </div>   
-                    </div>
+                    </div>   
                 </section>
             </div>
-        </div>
-        </div>        
+        </div>       
     </div>
 
     <footer>
