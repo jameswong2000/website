@@ -2,7 +2,7 @@
     visibility: hidden;
 }
 
-.loader {
+.loader{
     margin: -75px 0 0 -75px;
     position: absolute;
     top: 50%;
@@ -15,7 +15,7 @@
     border-top: 16px solid rgb(128, 125, 125); 
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
-  }
+}
 
 /*nav override*/
 #navLink a:hover{
@@ -90,20 +90,19 @@
     user-select: none;
 }
 
-.prev, .next {
-    
+.prev, .next{
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
 }
   
-.next {
+.next{
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover, .next:hover{
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -112,7 +111,7 @@
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot{
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -123,7 +122,7 @@
     transition: background-color 0.6s ease;
 }
   
-.dotActive, .dot:hover {
+.dotActive, .dot:hover{
     background-color: #717171;
 }
 
@@ -135,7 +134,7 @@
     z-index: 1;
 }
 
-.fadeIn {
+.fadeIn{
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -145,7 +144,7 @@
 /*Main Section*/
 
 /*keyframes*/
-@keyframes fadeInOpacity {
+@keyframes fadeInOpacity{
 	0% {
 		opacity: 0;
 	}
@@ -154,12 +153,12 @@
 	}
 }
 
-@-webkit-keyframes spin {
+@-webkit-keyframes spin{
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
   }
   
-  @keyframes spin {
+  @keyframes spin{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }

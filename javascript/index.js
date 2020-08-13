@@ -1,6 +1,6 @@
 var slideIndex = 1;
 
-window.addEventListener("load", function () {
+window.addEventListener("load", function (){
     //call fullpage.js
     new fullpage("#main", {
         //options here
@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
     myTimer = setInterval(function () { plusSlides(1) }, 3000);
 })
 
-function plusSlides(n) {
+function plusSlides(n){
     clearInterval(myTimer);
     if (n < 0) {
         showSlides(slideIndex -= 1);
@@ -30,13 +30,13 @@ function plusSlides(n) {
     }
 }
 
-function currentSlide(n) {
+function currentSlide(n){
     clearInterval(myTimer);
     myTimer = setInterval(function () { plusSlides(n + 1) }, 3000);
     showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides(n){
     var i;
     var slides = document.querySelectorAll(".slides");
     var dots = document.querySelectorAll(".dot");
