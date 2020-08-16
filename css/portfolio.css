@@ -205,17 +205,16 @@ tr:nth-child(even) :nth-child(2){
     text-decoration: none;
     cursor: pointer;
 }
+
+.descriptionModalContent .projectTitle{
+    margin: 0px;
+}
 /*Modal Box*/
 
 #projectsSection img, #projectsSection video{
     width: 20%;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-}
-
-#projectsSection img:hover, #projectsSection video:hover{
-    cursor: pointer;
-    box-shadow: 0 32px 32px 0 rgba(0,0,0,0.24), 0 32px 48px 0 rgba(0,0,0,0.19);
 }
 /*Main Section*/
 
