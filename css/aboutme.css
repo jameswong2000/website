@@ -3,19 +3,28 @@
 }
 
 #main{
-    margin: 70px 70px 0;
+    margin: 70px 10% 0;
     padding-top: 6px;
-    text-align: center;
     
 }
 
-img{
-    width: 600px;
+#main img{
+    padding-left: 1.5em;
+    padding-bottom: 3em;
+    float: right;
+    width: 32%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-p{
+#main p{
     font-size: 1.5rem;
+    line-height: 1.5em;
+    height: 50%;
+    margin-top: 0.5em;
 }
+
+.clearFix {
+    overflow: auto;
+  }
