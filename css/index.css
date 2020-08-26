@@ -64,7 +64,7 @@
 }
 
 #aircraftGallery{
-    background-image: url("../image/aircraftSectionBackground.JPG");
+    background-image: url("../image/aircraftSectionBackground.jpg");
 }
 
 #travelGallery{
@@ -72,7 +72,7 @@
 }
 
 #photographyGallery{
-    background-image: url("../image/photographySectionBackground.JPG");
+    background-image: url("../image/photographySectionBackground.jpg");
 }
 
 .slides{
