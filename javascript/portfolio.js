@@ -1,20 +1,23 @@
-var timelineEvents;
-var timelineEventsArr = [];
+var horizontalTimelineEvents;
+var verticalTimelineEvents;
 var descriptionModal;
 var descriptionModalArr = [];
 var currentShowProjectId;
 
 window.addEventListener("load", function (){   
-    timelineEvents = document.querySelectorAll(".timeline ol li div");    
+    horizontalTimelineEvents = document.querySelectorAll(".horizontalTimeline ol li div");
+    verticalTimelineEvents = document.querySelectorAll(".verticalTimeline .container .content");  
     descriptionModal = document.querySelectorAll(".modal");
     
-    for(var i = 0;i<timelineEvents.length;i++){
-        timelineEvents[i].parentElement.style.width = Math.floor(100/timelineEvents.length) + "%";
-        timelineEventsArr.push(timelineEvents[i].id);
+    for(var i = 0;i<horizontalTimelineEvents.length;i++){
+        horizontalTimelineEvents[i].parentElement.style.width = Math.floor(100/horizontalTimelineEvents.length) + "%";
         descriptionModalArr.push(descriptionModal[i].id);
 
         /*add onclick function to the timeline text*/
-        timelineEvents[i].addEventListener("click", function(){
+        horizontalTimelineEvents[i].addEventListener("click", function(){
+            showContent(this.id);
+        });
+        verticalTimelineEvents[i].addEventListener("click", function(){
             showContent(this.id);
         });
         /*add onclick function to the timeline text*/
