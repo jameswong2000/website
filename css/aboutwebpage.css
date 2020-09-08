@@ -109,11 +109,65 @@
 }
 
 #main img{
-    width: 40%;
+    width: 277px;
     float: right;
 }
 
+#main ul{
+    margin-top: 0;
+    padding-left: 20px;
+}
+
 #main li{
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px){
+    #main img{
+        width: 100%;
+        padding: 0px 0px 16px ;
+    }
+
+    #main li{
+        font-size: 3vw;
+    }
+
+    #main ol{
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after{
+        display: none;
+    }
+
+    /* The circles on the timeline */
+    .container::after{
+        display: none;
+    }
+
+    /* Place the container to the left */
+    .left{
+        width: 100%;
+    }
+
+    /* Place the container to the right */
+    .right{
+        left: 0;
+        width: 100%;
+    }
+
+    /* Add arrows to the left container (pointing right) */
+    .left::before, .right::before{
+        display: none;
+    }
+
+    #main li{
+        font-size: 1.5rem;
+    }
+
 }
 
