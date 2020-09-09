@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 /*Main Section*/
@@ -231,8 +232,6 @@ tr:nth-child(even) :nth-child(2){
     to {transform: scale(1)}
 }
 
-
-
 @media screen and (max-width: 1300px){
     #introduction img{   
         width: 300px;
@@ -391,7 +390,7 @@ tr:nth-child(even) :nth-child(2){
 
     #introductionContent{
         padding-top: 0px;
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     section:not(projectsSection) *{
@@ -402,7 +401,7 @@ tr:nth-child(even) :nth-child(2){
         font-size: 4vw;
     }
 
-    .descriptionModalContent{
+    .descriptionModalContent *{
         font-size: 5vw;
     }
 }

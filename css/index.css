@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
 #main{
     visibility: hidden;
 }
@@ -156,12 +161,12 @@
 @-webkit-keyframes spin{
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
-  }
+}
   
-  @keyframes spin{
+@keyframes spin{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
 /*keyframes*/
 
 @media screen and (max-width: 700px){
@@ -184,6 +189,4 @@
     #photographyGallery{
         background-image: url("../image/photographySectionBackground.jpg");
     }
-
-
 }

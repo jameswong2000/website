@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 #main{
@@ -43,6 +44,4 @@
         width: 100%;
         padding: 0px 0px 10px;
     }
-
-
 }

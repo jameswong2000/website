@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 #main{
@@ -168,6 +169,11 @@
     #main li{
         font-size: 3vw;
     }
+}
 
+@media screen and (max-width: 570px){
+    #main li{
+        font-size: 4.5vw;
+    }
 }
 
