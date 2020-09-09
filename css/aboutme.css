@@ -34,19 +34,15 @@
     }
 }
 
-@media screen and (max-width: 1200px){
-    #main p{
-        font-size: 1em;
-    }
-}
-
 @media screen and (max-width: 740px){
+    #main h1{
+        text-align: center;
+    }
+
     #main img{
         width: 100%;
-        padding: 0;
+        padding: 0px 0px 10px;
     }
 
-    #main p{
-        font-size: 1.25em;
-    }
+
 }

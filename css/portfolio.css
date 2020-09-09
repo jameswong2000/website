@@ -242,7 +242,7 @@ tr:nth-child(even) :nth-child(2){
 
     #introductionContent{
         display: block;
-        padding-top: 50px;
+        padding-top: 32px;
         font-size: 1.25em;
     }
 
@@ -360,7 +360,7 @@ tr:nth-child(even) :nth-child(2){
         background-color: #dddcdc;
         position: relative;
         border-radius: 6px;
-        font-size: 3vw;
+        font-size: 3.75vw;
     }
 
     .container.left .content:hover{
@@ -373,4 +373,36 @@ tr:nth-child(even) :nth-child(2){
         box-shadow: 10px 10px 5px grey;
     }
 
+}
+
+@media screen and (max-width: 570px){
+    #introduction a{
+        font-size: 5vw;
+    }
+    
+    #introduction img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float: none;
+        width: 70%;
+        padding: 10px 0px;
+    }
+
+    #introductionContent{
+        padding-top: 0px;
+        font-size: 4vw;
+    }
+
+    section:not(projectsSection) *{
+        font-size: 4vw;
+    }
+
+    #awardsSection *{
+        font-size: 4vw;
+    }
+
+    .descriptionModalContent{
+        font-size: 5vw;
+    }
 }

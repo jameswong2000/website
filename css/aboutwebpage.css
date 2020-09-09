@@ -122,14 +122,14 @@
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1180px){
     #main img{
         width: 100%;
         padding: 0px 0px 16px ;
     }
 
     #main li{
-        font-size: 3vw;
+        font-size: 1.5rem;
     }
 
     #main ol{
@@ -138,7 +138,7 @@
 
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 800px){
     /* The actual timeline (the vertical ruler) */
     .timeline::after{
         display: none;
@@ -166,7 +166,7 @@
     }
 
     #main li{
-        font-size: 1.5rem;
+        font-size: 3vw;
     }
 
 }

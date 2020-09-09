@@ -5,6 +5,10 @@ body, html{
 }
 
 /*Navigation Menu*/
+#mobileHeader{
+    display: none;
+}
+
 nav {
     background-color: #393E41;
     z-index: 9999;      /*Navigation Menu always on the front*/
@@ -114,3 +118,39 @@ footer{
     clear: both;
 }
 /*Footer*/
+
+@media screen and (max-width: 570px){
+    #header, #mobileHeader #navLink{
+        display: none;
+    }
+
+    #mobileHeader{
+        display: block;
+    }
+
+    #mobileHeader #logo{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float: none;
+        cursor: pointer;
+    }
+
+    #mobileHeader #navLink a{
+        width: 100%;
+    }
+
+    .footerColumn{
+        width: 50%;
+    }
+
+    .footerColumn h4{
+        margin: 10px 0px;
+    }
+
+    .footerColumn a{
+        display: inline-block;
+        text-decoration: underline;
+        padding-bottom: 6px;
+    }
+}
