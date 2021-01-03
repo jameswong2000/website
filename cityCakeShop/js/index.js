@@ -15,7 +15,7 @@ function slideshow() {
 		current_cake = 0;
 	}
 
-	document.getElementById("cakeimg").src = "../image/"+cake[current_cake].imagefile;
+	document.getElementById("cakeimg").src = "/image/"+cake[current_cake].imagefile;
 	document.getElementById("cakename").innerHTML = cake[current_cake].description;
 	document.getElementById("carbohydrate").innerHTML = cake[current_cake].nutrition[0].percentage;
 	document.getElementById("protein").innerHTML = cake[current_cake].nutrition[1].percentage;

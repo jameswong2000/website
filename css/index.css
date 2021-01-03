@@ -61,23 +61,23 @@
 }
 
 #greetingSection{
-    background-image: url(".././image/introSectionBackground.jpg");
+    background-image: url("/./image/introSectionBackground.jpg");
 }
 
 #portfolioSection{
-    background-image: url(".././image/portfolioSectionBackground.jpg");
+    background-image: url("/./image/portfolioSectionBackground.jpg");
 }
 
 #aircraftGallery{
-    background-image: url("../image/aircraftSectionBackground.jpg");
+    background-image: url("/image/aircraftSectionBackground.jpg");
 }
 
 #travelGallery{
-    background-image: url("../image/travelSectionBackground.jpg");
+    background-image: url("/image/travelSectionBackground.jpg");
 }
 
 #photographyGallery{
-    background-image: url("../image/photographySectionBackground.jpg");
+    background-image: url("/image/photographySectionBackground.jpg");
 }
 
 .slides{
@@ -171,22 +171,22 @@
 
 @media screen and (max-width: 700px){
     #greetingSection{
-        background-image: url(".././image/introSectionBackground2.jpg");
+        background-image: url("/./image/introSectionBackground2.jpg");
     }
     
     #portfolioSection{
-        background-image: url(".././image/portfolioSectionBackground.jpg");
+        background-image: url("/./image/portfolioSectionBackground.jpg");
     }
     
     #aircraftGallery{
-        background-image: url("../image/aircraftSectionBackground2.jpg");
+        background-image: url("/image/aircraftSectionBackground2.jpg");
     }
     
     #travelGallery{
-        background-image: url("../image/travelSectionBackground.jpg");
+        background-image: url("/image/travelSectionBackground.jpg");
     }
     
     #photographyGallery{
-        background-image: url("../image/photographySectionBackground.jpg");
+        background-image: url("/image/photographySectionBackground.jpg");
     }
 }
