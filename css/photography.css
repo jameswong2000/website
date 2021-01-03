@@ -4,7 +4,7 @@
 }
 
 .content {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../image/travelSectionBackground.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../image/photographySectionBackground.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -29,6 +29,6 @@ hr {
 
 @media screen and (max-width: 700px){    
     .content{
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/travelSectionBackground.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/photographySectionBackground.jpg");
     }
 }
