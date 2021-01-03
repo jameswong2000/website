@@ -13,8 +13,8 @@ function cakemenu() {
 for(i=0;i<menu.length;i++) {
 	cake[i] = menu[i];
   current_cake = "cake"+[i];
-  current_cake_src = "/image/"+cake[i].imagefile;
-  document.getElementById("cake"+[i]).src = "/image/"+cake[i].imagefile;
+  current_cake_src = "../image/"+cake[i].imagefile;
+  document.getElementById("cake"+[i]).src = "../image/"+cake[i].imagefile;
   document.getElementById("cake"+[i]).title = cake[i].description;
   document.getElementById("cake"+[i]).alt = cake[i].description;
   document.write
