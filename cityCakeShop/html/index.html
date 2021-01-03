@@ -35,29 +35,8 @@
 </div>
 <!-- End Of Navigation Menu !-->
 
-<!-- Start Of video !-->
-<video id="cakevideo" autoplay muted>
-  <source src="http://courses.cs.cityu.edu.hk/cs2204/chocolate.mp4" type="video/mp4">
-  Your broswer does not support .mp4 video format.
-</video>
-<script type="text/javascript">
-var myvid = document.getElementById("cakevideo");
-var myvids = [
-  "http://courses.cs.cityu.edu.hk/cs2204/chocolate.mp4",
-  "http://courses.cs.cityu.edu.hk/cs2204/cakemaking-s.mp4"
-  ];
-var activeVideo = 0;
-
-myvid.addEventListener("ended", function(e) {
-  // update the new active video index
-  activeVideo = (++activeVideo) % myvids.length;
-  // update the video source and play
-  myvid.src = myvids[activeVideo];
-  myvid.load();
-//  setTimeout("myvid.play()", 5000)
-});
-</script>
-<!-- End Of video !-->
+<br>
+<br>
 
 <!-- Start Of Order !-->
 <form id="orderform" action="order.html" method="get">
