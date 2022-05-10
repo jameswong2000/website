@@ -6,20 +6,22 @@ import Airplane from "../images/airplane.jpg";
 
 function Home() {
     return (
-        <div id="home">
-            <WordHeading word={["James Wong"]}></WordHeading>
-            <div className="row" id="photos">
-                <div className="col-md-4">
+        <div id="home" name="home">
+            <WordHeading word="James Wong"></WordHeading>
+            <div className="row justify-content-center" id="photos">
+                <div className="col-lg-4">
                     <img src={Computer} alt="Computer"/>
+                    <h2 className="caption">Computer Learner</h2>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4">
                     <img src={Music} alt="Music"/>
+                    <h2 className="caption">Music Learner</h2>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4">
                     <img src={Airplane} alt="Airplane"/>
+                    <h2 className="caption">Lifelong Learner</h2>
                 </div>
-            </div>
-            <WordHeading word={["Computer Learner", "Music Learner", "Lifelong Learner"]}></WordHeading>
+            </div>        
         </div>
     )
 }
