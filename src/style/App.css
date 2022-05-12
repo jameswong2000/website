@@ -3,6 +3,10 @@
   color: #ffffff;
 }
 
+html {
+  scroll-padding-top: 8rem;
+}
+
 .App {
   text-align: center;
 }

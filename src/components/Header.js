@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar variant="dark" expand="sm">
+        <Navbar variant="dark" expand="md" fixed="top">
             <Container fluid>
                 <Navbar.Brand>
                     <img id="logo" alt="Logo" src={Logo} className="d-inline-block"/>
@@ -13,6 +13,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="nav-links" />
                 <Navbar.Collapse id="nav-links"className="justify-content-end">
                     <Nav>
+                        <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="#gallery">Gallery</Nav.Link>
                         <Nav.Link href="#about me">About Me</Nav.Link>
