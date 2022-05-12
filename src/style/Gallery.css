@@ -1,0 +1,13 @@
+#gallery {
+    margin: 7rem 1rem;
+}
+
+.album-title {
+    margin-top: 2rem;
+}
+
+.album-image {
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+}
