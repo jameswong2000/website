@@ -1,0 +1,50 @@
+#skills-board {
+    height: 97%;
+}
+
+.icons {
+    font-size: 4rem;
+}
+
+.icon-html > * {
+    color: #e24f25;
+}
+
+.icon-css > * {
+    color: #1572b7;
+}
+
+.icon-js > * {
+    color: #e4d04b;
+}
+
+.icon-bootstrap > * {
+    color: #360085;
+}
+
+.icon-react > * {
+    color: #5ccfee;
+}
+
+.icon-java > * {
+    color: #e24646;
+}
+
+.icon-git > * {
+    color: #e44c33;
+}
+
+.icon-docker > * {
+    color: #228ee1;
+}
+
+.icon-linux > * {
+    color: #010101;
+}
+
+@media only screen and (max-width: 991px) {
+    #skills-board {
+        height: auto;
+    }
+}
+

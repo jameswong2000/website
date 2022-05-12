@@ -1,0 +1,23 @@
+#introduction {
+    width: 80%;
+    padding: 3rem 0;
+    font-size: 1.3rem;
+    white-space: pre-line;
+}
+
+#boards {
+    width: 95%;
+}
+
+.card {
+    background-color: inherit;
+    margin-bottom: 1rem;
+}
+
+.card *{
+    background-color: #545050;
+}
+
+.card-header { 
+    font-size: 2rem;
+}

@@ -1,0 +1,72 @@
+{
+    "Introduction": "A Computer Science graduate with 12 months of internship experience.\n\nPassionate about technology, software and web development.\n\nParticipated in several competitions and projects to put theoretical knowledge into practice.\n\nKeen to learn new knowledge, accept new challenges and work both with different people and independently.",
+    "Educations": [
+        {
+            "Year": "2018-2022",
+            "Institute": "City University of Hong Kong",
+            "Detail": "Bachelor of Science in Computer Science"
+        },
+        {
+            "Year": "2012-2018",
+            "Institute": "Stewards Pooi Kei College",
+            "Detail": "NSS Elective Subjects: Physics, Chemistry, Information and Communication Technology"
+        }
+    ],
+    "WorkingExperiences": [
+        {
+            "Year": "2020-2021",
+            "Company": "The Bank of East Asia Limited",
+            "Title": "Student Programmer (Web Developer)"
+        }
+    ],
+    "Projects": [
+        {
+            "Year": "2022",
+            "Title": "Online Shop Order Chatbot",
+            "Type": "Chatbot Programme",
+            "Skills": ["Amazon AWS", "Python"],
+            "Detail": "This project uses AWS Lex to build an online shop order chatbot to allow users to place an order by specifying the product name and quantity.\n\nAfter that, the payload will be passed to AWS Lambda for executing the business logic, such as constructing the response payload and writing order details to the database.\n\nFinally, all the data such as product name, price and order information will be stored in Amazon Dynamo DB.",
+            "Link": "https://github.com/Icasso/CS4296-gp8"
+        },
+        {
+            "Year": "2022",
+            "Title": "Realtime Equiz Platform",
+            "Type": "Webpage",
+            "Skills": ["HTML", "CSS", "Javascript", "PHP", "Docker", "Google firebase"],
+            "Detail": "This project aims to enhance the current CityU Moodle platform by implementing real-time activities, live polling and real-time equiz.\n\nLive polling activities allow students to vote on questions and instantly view the responses.\n\nRealtime equiz allows quiz activities to be delivered in a real-time process. Teachers can control the quiz flow and the students can view the feedback immediately after they attempt the question.",
+            "Link": "https://github.com/jameswong2000/Realtime-Equiz-Platform"
+        },
+        {
+            "Year": "2020",
+            "Title": "Online Quiz Marking Engine",
+            "Type": "Console Programme",
+            "Skills": ["Java", "Junit", "Gradle", "Travis CI", "Codecov", "Visual Paradigm"],
+            "Detail": "This project aims to improve the efficiency of teachers' marking and alleviate the pressure on the users. It provides a convenient environment to assist users in answer checking and marking. Using this system can reduce the error rate for manual marking and ensure student scores' fairness.\n\nThis system supports six question types: multiple-choice questions with single or multiple answers, short questions with text or numeric answers, and true or false questions. For those text questions, the system will support marking manually.\n\nBesides, the system can display the submission details and results. Teachers can adjust the teaching process and design the homework depending on students' weaknesses.",
+            "Link": ""
+        },
+        {
+            "Year": "2020",
+            "Title": "Food Delivery Platform",
+            "Type": "Software Design",
+            "Skills": ["UML"],
+            "Detail": "This project aims to develop a food delivery platform that allows users to order food online and deliver it straight to their doorstep.\n\n This platform includes the following features, account registration, catalogue browsing and food ordering, catalogue editing, system management and food delivery.\n\n There are three users, customer, restaurant and deliverer. Customers can browse restaurants, place food orders, use coupons, and pay. Restaurants can add foods, edit foods and delete foods. System administrators can approve restaurants and delete restaurants.\n\n This platform has implemented several software design principles and design patterns. Such as the Open-Closed Principle, Liskov Substitution Principle, Dependency Inversion Principle, State Pattern, Singleton Pattern, Factory-Method Pattern and Command Pattern.",
+            "Link": ""
+        },
+        {
+            "Year": "2017",
+            "Title": "Earthquake Detector",
+            "Type": "IoT Device",
+            "Skills": ["C", "C++", "HTML", "Javascript", "PHP"],
+            "Detail": "This project aims to develop an automatic earthquake detector to detect earthquakes and record the data. This device can measure the type of the earthquake and its magnitude.\n\nThe device uses Arduino UNO R3 as the microcontroller, MPU6050 Accelerometer Module to measure the earthquake, SSD1306 OLED Display Module to display the result, HC-05 Bluetooth Module to send the data to the mobile application and LTE12-05 Buzzer Module to alert people.\n\nIn order to let users view the data more conveniently, we have implemented the android mobile application and the web application. Users can view the real-time data using the mobile application and view the real-time data and the past measured data in the web application.",
+            "Link": "https://github.com/jameswong2000/earthquakeCompetition"
+        },
+        {
+            "Year": "2015",
+            "Title": "Sea Level Measurement Device",
+            "Type": "IoT Device",
+            "Skills": ["C++"],
+            "Detail": "This project aims to develop a sea-level measurement device to measure the sea level and record the data.\n\nThis device uses Arduino UNO R3 as the microcontroller, HC-SR04 Ultrasonic sensor module to measure the data, I2C 1602 LCD Display Module to display the result, SD Card Module for storing the recorded data to the SDcard and HC-05 Bluetooth Module to send the data to the mobile application.\n\nWhen the device is operating, it will send the measured data to the mobile application and store it to the SD card. If the measured value is larger than the threshold, the display module and the mobile application will display “OUT”.",
+            "Link": "https://github.com/jameswong2000/seaLevelCompetition"
+        }
+    ]
+}
