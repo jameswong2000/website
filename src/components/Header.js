@@ -1,13 +1,14 @@
-import Logo from '../images/logo.png'
-import '../style/Header.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import "../style/Header.css";
+import { Navbar, Container, Nav } from "react-bootstrap";
+
+const logo = "../assets/images/logo.png";
 
 function Header() {
     return (
         <Navbar variant="dark" expand="md" fixed="top">
             <Container fluid>
                 <Navbar.Brand>
-                    <img id="logo" alt="Logo" src={Logo} className="d-inline-block"/>
+                    <img id="logo" alt="Logo" src={logo} className="d-inline-block"/>
                     <Navbar.Text>James Wong</Navbar.Text>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="nav-links" />

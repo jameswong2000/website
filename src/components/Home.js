@@ -1,8 +1,10 @@
-import '../style/Home.css';
+import "../style/Home.css";
 import WordHeading from "./WordHeading";
-import Computer from "../images/computer.jpg";
-import Music from "../images/music.jpg";
-import Airplane from "../images/airplane.jpg";
+
+const computer = "../assets/images/computer.jpg";
+const music = "../assets/images/music.jpg";
+const airplane = "../assets/images/airplane.jpg";
+
 
 function Home() {
     return (
@@ -10,15 +12,15 @@ function Home() {
             <WordHeading word="James Wong"></WordHeading>
             <div className="row justify-content-center" id="photos">
                 <div className="col-lg-4">
-                    <img src={Computer} alt="Computer"/>
+                    <img src={computer} alt="Computer"/>
                     <h2 className="caption">Computer Learner</h2>
                 </div>
                 <div className="col-lg-4">
-                    <img src={Music} alt="Music"/>
+                    <img src={music} alt="Music"/>
                     <h2 className="caption">Music Learner</h2>
                 </div>
                 <div className="col-lg-4">
-                    <img src={Airplane} alt="Airplane"/>
+                    <img src={airplane} alt="Airplane"/>
                     <h2 className="caption">Lifelong Learner</h2>
                 </div>
             </div>        
