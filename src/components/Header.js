@@ -1,7 +1,7 @@
 import "../style/Header.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-const logo = "../assets/images/logo.png";
+const logo = "assets/images/logo.png";
 
 function Header() {
     return (
