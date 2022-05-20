@@ -1,16 +1,43 @@
 [
     {
-        "Title": "Hong Kong",
+        "Title": "Central And Western District - Hong Kong",
         "Images": [
-            "../assets/images/hongkong/DSC01124.JPG",
-            "../assets/images/hongkong/DSC01140.JPG",
-            "../assets/images/hongkong/DSC01144.JPG",
-            "../assets/images/hongkong/DSC01171.JPG",
-            "../assets/images/hongkong/DSC01208.JPG",
-            "../assets/images/hongkong/DSC01258.JPG",
-            "../assets/images/hongkong/DSC01265.JPG",
-            "../assets/images/hongkong/DSC01271.JPG",
-            "../assets/images/hongkong/DSC01279.JPG"
+            {
+                "Link": "../assets/images/hongkong/DSC01124.JPG",
+                "Alt": "The Bishop's House"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01140.JPG",
+                "Alt": "HKSKH St. Paul's Church"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01144.JPG",
+                "Alt": "Hong Kong Catholic Cathedral of the Immaculate Conception"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01171.JPG",
+                "Alt": "St. John's Cathedral"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01208.JPG",
+                "Alt": "Tai Kwun"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01258.JPG",
+                "Alt": "The Church of Christ in China - Hop Yat Church (Hong Kong Church)"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01265.JPG",
+                "Alt": "King's College"
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01271.JPG",
+                "Alt": "Chinese Rhenish Church Hong Kong "
+            },
+            {
+                "Link": "../assets/images/hongkong/DSC01279.JPG",
+                "Alt": "Kau Yan Church"
+            }
         ]
     }
 ]

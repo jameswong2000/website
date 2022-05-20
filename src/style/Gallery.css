@@ -2,8 +2,13 @@
     margin: 7rem 1rem;
 }
 
-.album-title {
+.album {
     margin-top: 2rem;
+}
+
+.accordion-header > * {
+    background-color: #545050;
+    color: inherit;
 }
 
 .album-image {
