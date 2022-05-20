@@ -17,8 +17,8 @@ function Header() {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="#gallery">Gallery</Nav.Link>
-                        <Nav.Link href="#about me">About Me</Nav.Link>
-                        <Nav.Link href="#about webpage">About Webpage</Nav.Link>
+                        <Nav.Link href="#about-me">About Me</Nav.Link>
+                        <Nav.Link href="#about-webpage">About Webpage</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
