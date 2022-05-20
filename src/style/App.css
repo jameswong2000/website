@@ -1,0 +1,14 @@
+* {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+html {
+  scroll-padding-top: 8rem;
+}
+
+.App {
+  text-align: center;
+}
+
+

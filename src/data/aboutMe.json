@@ -1,0 +1,20 @@
+[
+    {
+        "Title": "Computer Learner",
+        "Image": "assets/images/computer.jpg",
+        "Alt": "computer",
+        "Content": "James was born in 2000. He currently lives in Hong Kong and has obtained a bachelor's degree in Computer Science at the City University of Hong Kong in 2022. James is interested in webpage development, java application development and infrastructure. Currently, he is working as a programmer and is responsible for full-stack web development.\n\nJames has also developed different areas of interest, such as music, photography, aviation etc. Outside of his study time, he has joined various activities to enrich his livelihood."
+    },
+    {
+        "Title": "Music Learner",
+        "Image": "assets/images/music.jpg",
+        "Alt": "music",
+        "Content": "James has developed a strong interest in music since young. James started learning the piano at the age of five, under the tutelage of Ms Roma Au, and was awarded Grade 8 certificate from the ABRSM.\n\nJames has also been learning vocals with Mr Enico Luk. Passionate about choral singing, he is now a member of various choirs, including Hong Kong Bach Choir, Sacred Singers, and the choir at Chinese Rhenish Church, Kowloon.\n\nRecently, he adores the solemnity and diversified timbre of the organ. He is now learning the organ from Ms Jessie Lau and serves as an organist at his church."
+    },
+    {
+        "Title": "Lifelong Learner",
+        "Image": "assets/images/airplane.jpg",
+        "Alt": "airplane",
+        "Content": "James has also developed a strong interest in aviation since young. In 2016, he participated in Future Pilot Training Programme, organized by Hong Kong Direct Subsidy Scheme Schools Council and The University of New South Wales and went to Australia for flight training. He attended theory classes and flight training with DA40 in Bankstown Airport in those two weeks.\n\nIn 2017, he joined the Air Transport Summer Day Camp organized by the Hong Kong International Aviation Academy and Hong Kong Youth Aviation Academy. During the day camp, he attended lectures on aviation theory and had site visits inside the Hong Kong International Airport."
+    }
+]
