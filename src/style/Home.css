@@ -1,0 +1,36 @@
+#home {
+    margin-top: 8rem;
+    height: 90vh;
+}
+
+#photos {
+    margin: 7rem 1rem;
+}
+
+#photos img {
+    max-width: 500px;
+    width: 100%; 
+}
+
+#photos .caption {
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 991px) {
+    #home {
+        height: auto;
+    }
+
+    #photos {
+        margin: 3rem 1rem;
+    }
+
+    #photos img {
+        margin: 2rem 0;
+    }
+
+    #photos .caption {
+        padding-top: 0;
+    }
+    
+}
